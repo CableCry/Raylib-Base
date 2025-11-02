@@ -1,0 +1,14 @@
+CompileFlags:
+  Add: ["-Wall", "-Wextra", "-Wpedantic"]
+  Remove: ["-Wpragma-pack"]
+
+Index:
+  Background: Build
+
+Diagnostics:
+  ClangTidy:
+    Add: ["bugprone-*,modernize-*,performance-*,readability-*"]
+    Remove: ["readability-magic-numbers"]
+    CheckOptions:
+      - key: modernize-use-trailing-return-type.UseAuto
+        value: false

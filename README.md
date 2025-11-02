@@ -17,8 +17,8 @@ Below are the step-by-step instructions for cloning, configuring, building, and 
 ## 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/rayproj.git
-cd rayproj
+git clone https://github.com/CableCry/Raylib-Base.git
+cd Raylib-Base
 ```
 
 ---
